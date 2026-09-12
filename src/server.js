@@ -32,6 +32,7 @@ const onRequest = (request, response) => {
     }
 }
 
+// Added comment to test git actions
 http.createServer(onRequest).listen(port, () => {
     console.log(`Listening on 127.0.0.1:${port}`)
 })
